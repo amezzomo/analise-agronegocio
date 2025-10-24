@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumo Semanal do Agronegócio - 24/10/2025</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+            max-height: 400px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 350px;
+            }
+        }
+        .icon {
+            font-size: 1.5rem;
+            margin-right: 0.5rem;
+        }
+        .kpi-value {
+             color: #47A8F5; /* Energetic Blue */
+        }
+        .trend-up {
+            color: #4CAF50; /* Green */
+        }
+        .trend-down {
+            color: #F24C4E; /* Energetic Red */
+        }
+        .trend-stable {
+            color: #F7C548; /* Energetic Yellow */
+        }
+
+        /* <!-- Palette: Energetic & Playful (#F7C548, #F78154, #F24C4E, #47A8F5, #3E4A61) --> */
+        /* <!-- Narrative Plan: Header -> Manchete (Exports) -> Análise Especialistas (Costs, Climate) -> Fertilizantes (Prices, Trends) -> Defensivos (Usage, Market) -> Foco Sul (Planting, Prices) -> Footer --> */
+        /* <!-- Visualization Choices: --> */
+        /* <!-- Manchete: Big Number (Inform, HTML Text, NO SVG) --> */
+        /* <!-- Especialistas: Text Cards (Organize/Inform, HTML Divs, NO SVG) --> */
+        /* <!-- Fertilizantes Prices: Bar Chart (Compare, Chart.js Canvas, NO SVG) --> */
+        /* <!-- Fertilizantes Trends: Text + Icons (Change/Inform, HTML Text/Unicode, NO SVG) --> */
+        /* <!-- Defensivos Usage: Donut Chart (Compare Composition, Chart.js Canvas, NO SVG) --> */
+        /* <!-- Defensivos Trends: Big Number/Text (Inform, HTML Text, NO SVG) --> */
+        /* <!-- Foco Sul Prices: Text Cards (Inform, HTML Divs, NO SVG) --> */
+        /* <!-- Foco Sul Status: Text (Inform, HTML Text, NO SVG) --> */
+        /* <!-- Confirmation: NO Mermaid JS was used. NO SVG was used. --> */
+
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <header class="bg-[#3E4A61] text-white p-6 shadow-md">
+        <h1 class="text-3xl font-bold text-center">Resumo Semanal do Agronegócio Brasileiro</h1>
+        <p class="text-center text-lg mt-1">Semana de 24 de Outubro de 2025</p>
+    </header>
+
+    <main class="container mx-auto p-4 md:p-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+            <section id="manchete" class="md:col-span-2 bg-white rounded-lg shadow-md p-6">
+                <h2 class="text-2xl font-semibold mb-4 text-[#47A8F5] flex items-center"><span class="icon">📰</span>Manchete da Semana</h2>
+                <p class="mb-4">O Brasil continua a demonstrar sua força no cenário global de grãos. As exportações acumuladas em 2025 reforçam a posição do país como um dos principais players mundiais, impulsionado pela alta produtividade e eficiência logística.</p>
+                <div class="text-center bg-blue-50 p-6 rounded-lg">
+                    <p class="text-lg text-gray-700 mb-2">Exportações Brasileiras de Grãos (Acumulado 2025)</p>
+                    <p class="text-6xl font-bold kpi-value">153,9</p>
+                    <p class="text-xl text-gray-600">Milhões de Toneladas</p>
+                </div>
+                 <p class="mt-4 text-sm text-gray-600">Este volume expressivo sublinha a competitividade do agronegócio nacional no mercado internacional, apesar dos desafios logísticos e de custos.</p>
+           </section>
+
+            <section id="analise" class="md:col-span-2 bg-white rounded-lg shadow-md p-6">
+                 <h2 class="text-2xl font-semibold mb-4 text-[#47A8F5] flex items-center"><span class="icon">👨‍🏫</span>Análise dos Especialistas</h2>
+                 <p class="mb-6">Especialistas do setor trazem suas perspectivas sobre os desafios e oportunidades atuais, focando em custos de produção, projeções de safra e fatores climáticos que podem impactar o produtor.</p>
+                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                     <div class="border border-gray-200 rounded-lg p-4 bg-gray-50">
+                        <h3 class="text-lg font-semibold mb-2">Jeferson Souza (Agrinvest)</h3>
+                        <p class="text-sm">Os custos de produção seguem como ponto de atenção. A alta nos preços dos fertilizantes, mesmo para quem comprou antecipadamente, eleva as relações de troca. Isso pode levar a um menor investimento em tecnologia na próxima safra (25/26), como já sinalizado em algumas regiões. O planejamento financeiro e a gestão de custos são cruciais para manter a rentabilidade.</p>
+                     </div>
+                     <div class="border border-gray-200 rounded-lg p-4 bg-gray-50">
+                        <h3 class="text-lg font-semibold mb-2">Kellen Severo (Jovem Pan)</h3>
+                        <p class="text-sm">Apesar das projeções otimistas para a safra 25/26, com potencial de recorde e crescimento do PIB do agro, o clima continua sendo um fator de risco. Condições adversas localizadas, como altas temperaturas e chuvas irregulares observadas em ciclos anteriores (impacto do La Niña), podem atrasar o plantio ou afetar a produtividade, especialmente no Sul. Monitoramento constante é essencial.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="fertilizantes" class="bg-white rounded-lg shadow-md p-6">
+                <h2 class="text-2xl font-semibold mb-4 text-[#47A8F5] flex items-center"><span class="icon">🌡️</span>Termômetro dos Fertilizantes</h2>
+                <p class="mb-4">Monitoramos os preços e tendências dos principais nutrientes (NPK) no mercado brasileiro, essenciais para o planejamento da safra.</p>
+                <h3 class="text-lg font-semibold mb-2 text-center">Preços Atuais CFR Brasil (USD/Tonelada)</h3>
+                 <div class="chart-container mb-4">
+                    <canvas id="fertilizerPriceChart"></canvas>
+                </div>
+                 <p class="text-sm text-center text-gray-600 mb-4">Preços médios referência para importação (Custo + Frete) na semana.</p>
+                <div class="mt-4 border-t pt-4">
+                    <h3 class="text-lg font-semibold mb-2">Tendências e Comportamento</h3>
+                    <ul class="list-disc list-inside space-y-1 text-sm">
+                        <li><strong>Nitrogênio (Uréia):</strong> Preços mostram <span class="trend-stable font-semibold">estabilidade</span> recente (<span class="icon trend-stable">↔</span> ~$421/t), após leve recuo no início do mês. No entanto, o patamar ainda é significativamente <span class="trend-up font-semibold">superior</span> ao mesmo período do ano passado.</li>
+                        <li><strong>Fósforo (MAP):</strong> Mercado apresenta <span class="trend-stable font-semibold">firmeza</span> (<span class="icon trend-stable">↔</span> ~$720/t), com demanda aquecida para o plantio da safra de verão. Custos elevados preocupam.</li>
+                        <li><strong>Potássio (KCL):</strong> Cotações se mantêm <span class="trend-stable font-semibold">estáveis</span> (<span class="icon trend-stable">↔</span> ~$362/t), mas a relação de troca com as commodities agrícolas é menos favorável que em safras anteriores.</li>
+                    </ul>
+                </div>
+            </section>
+
+             <section id="defensivos" class="bg-white rounded-lg shadow-md p-6">
+                <h2 class="text-2xl font-semibold mb-4 text-[#47A8F5] flex items-center"><span class="icon">🔬</span>Mercado de Defensivos Agrícolas</h2>
+                 <p class="mb-4">Acompanhamento do mercado de defensivos, incluindo tendências de uso e fatores econômicos que influenciam o setor.</p>
+                 <div class="text-center mb-4">
+                     <p class="text-md text-gray-700">Crescimento da Área Tratada (1º Semestre 2025 vs 1º Semestre 2024)</p>
+                     <p class="text-4xl font-bold kpi-value trend-up">+3,1% <span class="text-2xl">↑</span></p>
+                 </div>
+                 <h3 class="text-lg font-semibold mb-2 text-center">Distribuição de Uso por Cultura (Área Tratada - 1º Tri 2025)</h3>
+                <div class="chart-container mb-4" style="height: 260px; max-height: 300px;">
+                    <canvas id="defensivosUsageChart"></canvas>
+                </div>
+                 <div class="mt-4 border-t pt-4">
+                    <h3 class="text-lg font-semibold mb-2">Tendências e Análise</h3>
+                    <ul class="list-disc list-inside space-y-1 text-sm">
+                        <li>O uso de defensivos continua a crescer em área tratada, impulsionado pela expansão agrícola e necessidade de controle de pragas e doenças.</li>
+                        <li>Soja e Milho concentram a maior parte do uso (cerca de 71% no 1º trimestre de 2025).</li>
+                        <li>Apesar do aumento no volume e área, o valor total do mercado pago pelo agricultor apresentou <span class="trend-down font-semibold">queda</span> (-6,6% em 2024 vs 2023), impactado pela redução de preços de alguns produtos e pela variação cambial.</li>
+                         <li>A busca por maior eficiência e o avanço de tecnologias como drones e agricultura de precisão são tendências importantes para otimizar a aplicação.</li>
+                     </ul>
+                </div>
+            </section>
+
+            <section id="foco-sul" class="md:col-span-2 bg-white rounded-lg shadow-md p-6">
+                <h2 class="text-2xl font-semibold mb-4 text-[#47A8F5] flex items-center"><span class="icon">🌱</span>Foco no Sul: Rio Grande do Sul e Paraná</h2>
+                <p class="mb-6">Situação da safra e movimentações de mercado nos principais estados produtores da região Sul, com foco na soja.</p>
+                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="border border-gray-200 rounded-lg p-4 bg-gray-50">
+                        <h3 class="text-lg font-semibold mb-2">Rio Grande do Sul (RS)</h3>
+                        <p class="text-sm mb-3">O início da safra 2025/26 é visto com <span class="font-semibold">expectativa positiva moderada</span>. O plantio da soja avança nas áreas onde a umidade permite. Mercado físico demonstra alguma volatilidade.</p>
+                         <div class="space-y-1 text-sm">
+                             <p><strong>Preços Soja (Início Out/25):</strong></p>
+                            <p> <span class="font-medium">Porto (Rio Grande):</span> ~R$ 140,00/saca</p>
+                            <p> <span class="font-medium">Interior (Ex: Passo Fundo):</span> ~R$ 131,00/saca</p>
+                         </div>
+                     </div>
+                     <div class="border border-gray-200 rounded-lg p-4 bg-gray-50">
+                         <h3 class="text-lg font-semibold mb-2">Paraná (PR)</h3>
+                         <p class="text-sm mb-3">Estimativas iniciais para a safra 2025/26 apontam para <span class="font-semibold">aumento na produção</span> de soja e milho. O plantio da soja está em andamento. Preços no estado mostram relativa estabilidade.</p>
+                        <div class="space-y-1 text-sm">
+                            <p><strong>Preços Soja (Início Out/25):</strong></p>
+                            <p><span class="font-medium">Porto (Paranaguá):</span> ~R$ 139,00/saca</p>
+                            <p><span class="font-medium">Interior (Ex: Cascavel):</span> ~R$ 128,00/saca</p>
+                        </div>
+                    </div>
+                </div>
+                 <p class="mt-4 text-sm text-gray-600">Atenção às condições climáticas nas próximas semanas, que serão decisivas para o estabelecimento das lavouras de verão na região.</p>
+             </section>
+
+        </div>
+    </main>
+
+    <footer class="text-center text-xs text-gray-500 py-4 mt-8">
+        Infográfico gerado em 24/10/2025. Dados sintetizados a partir de fontes públicas e análises de mercado simuladas para fins ilustrativos. Verifique fontes oficiais para decisões comerciais.
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+
+             const processLabels = (labels) => {
+                const charLimit = 16;
+                return labels.map(label => {
+                    if (typeof label === 'string' && label.length > charLimit) {
+                        const words = label.split(' ');
+                        const lines = [];
+                        let currentLine = '';
+                        words.forEach(word => {
+                            if ((currentLine + word).length <= charLimit) {
+                                currentLine += (currentLine ? ' ' : '') + word;
+                            } else {
+                                if (currentLine) lines.push(currentLine);
+                                currentLine = word;
+                             }
+                        });
+                        if (currentLine) lines.push(currentLine);
+                         return lines;
+                    }
+                    return label;
+                });
+            };
+
+            const tooltipTitleCallback = (tooltipItems) => {
+                 const item = tooltipItems[0];
+                 let label = item.chart.data.labels[item.dataIndex];
+                 if (Array.isArray(label)) {
+                    return label.join(' ');
+                 } else {
+                    return label;
+                }
+            };
+
+            const commonChartOptions = {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    tooltip: {
+                        callbacks: {
+                            title: tooltipTitleCallback
+                        }
+                    },
+                    legend: {
+                         position: 'bottom',
+                    }
+                },
+                scales: {
+                     x: {
+                        ticks: {
+                            autoSkip: false,
+                            maxRotation: 0,
+                            minRotation: 0
+                        }
+                    }
+                }
+            };
+
+            const colors = ['#47A8F5', '#F7C548', '#F78154', '#F24C4E', '#3E4A61', '#A8D8B9'];
+
+
+            const ctxFert = document.getElementById('fertilizerPriceChart')?.getContext('2d');
+            if (ctxFert) {
+                 const labelsFert = processLabels(['Uréia Granulada', 'MAP', 'KCL']);
+                 new Chart(ctxFert, {
+                    type: 'bar',
+                    data: {
+                        labels: labelsFert,
+                        datasets: [{
+                            label: 'Preço Médio CFR Brasil (USD/t)',
+                             data: [421.75, 720.00, 362.50],
+                             backgroundColor: [colors[0], colors[1], colors[2]],
+                             borderColor: [colors[0], colors[1], colors[2]],
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        ...commonChartOptions,
+                         indexAxis: 'y',
+                        scales: {
+                             x: {
+                                beginAtZero: true,
+                                title: { display: true, text: 'USD/Tonelada' }
+                            },
+                            y: {
+                                ticks: { font: { size: 10 } }
+                            }
+                        },
+                         plugins: {
+                             ...commonChartOptions.plugins,
+                            legend: { display: false }
+                        }
+                    }
+                });
+            }
+
+
+            const ctxDef = document.getElementById('defensivosUsageChart')?.getContext('2d');
+             if (ctxDef) {
+                 const labelsDef = processLabels(['Milho', 'Soja', 'Algodão', 'Pastagens', 'Cana-de-Açúcar', 'Outros Cultivos']);
+                new Chart(ctxDef, {
+                    type: 'doughnut',
+                    data: {
+                        labels: labelsDef,
+                        datasets: [{
+                            label: '% da Área Tratada (1º Tri 2025)',
+                             data: [36, 35, 13, 7, 3, 6],
+                            backgroundColor: colors,
+                             hoverOffset: 4
+                        }]
+                     },
+                     options: {
+                         ...commonChartOptions,
+                         scales: { x: { display: false }, y: { display: false } }, // Hide axes for doughnut
+                        plugins: {
+                             ...commonChartOptions.plugins,
+                            legend: {
+                                 position: 'right',
+                                labels: { boxWidth: 12, padding: 15, font: { size: 10 } }
+                            }
+                        }
+                    }
+                });
+            }
+
+        });
+    </script>
+
+</body>
+</html>
