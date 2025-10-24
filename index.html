@@ -90,17 +90,17 @@
         <section class="mb-8 bg-white rounded-lg shadow-md p-6 border-l-4 border-[#47A8F5]">
             <h2 class="text-xl font-bold text-[#3E4A61] mb-2">Bem-vindo(a) à Análise Semanal do Agronegócio Brasileiro!</h2>
             <p class="text-gray-700">Esta página é sua fonte de informação atualizada sobre os principais movimentos do setor. Aqui você encontrará:</p>
-            <ul class="list-disc list-inside text-gray-700 ml-4 mt-2">
-                <li>**Análise Completa:** O texto aprofundado sobre os desafios e oportunidades do agronegócio.</li>
-                <li>**Infográfico Visual:** Um resumo dinâmico com os dados e gráficos mais importantes da semana.</li>
-                <li>**Resumo em Podcast:** A análise em áudio para você ouvir onde estiver.</li>
+            <ul class="text-gray-700 space-y-2 mt-2">
+                <li class="flex items-center"><span class="icon">📝</span>**Análise Completa:** O texto aprofundado sobre os desafios e oportunidades do agronegócio.</li>
+                <li class="flex items-center"><span class="icon">📊</span>**Infográfico Visual:** Um resumo dinâmico com os dados e gráficos mais importantes da semana.</li>
+                <li class="flex items-center"><span class="icon">🎧</span>**Resumo em Podcast:** A análise em áudio para você ouvir onde estiver.</li>
             </ul>
             <p class="text-lg font-bold text-red-600 mt-3">O conteúdo é atualizado toda terça-feira.</p>
         </section>
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:grid-flow-col-dense">
 
             <!-- Coluna Principal para a Análise (2/3 da largura em telas grandes) -->
-            <section id="analysis-section" class="lg:col-span-2 bg-white rounded-lg shadow-md p-6 analysis-content">
+            <section id="analysis-section" class="lg:col-span-2 lg:col-start-2 bg-white rounded-lg shadow-md p-6 analysis-content">
                 <h2 class="text-2xl font-bold mb-4 text-[#3E4A61]">Análise Completa</h2>
                 
                 <!-- Conteúdo da Análise (Markdown convertido para HTML) -->
@@ -166,7 +166,7 @@
             </section>
 
             <!-- Coluna Lateral para Podcast e Infográfico (1/3 da largura em telas grandes) -->
-            <aside class="lg:col-span-1">
+            <aside class="lg:col-span-1 lg:col-start-1">
                 
                 <!-- Seção Podcast -->
                 <section id="podcast" class="bg-white rounded-lg shadow-md p-6 mb-8">
