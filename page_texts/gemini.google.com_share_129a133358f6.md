@@ -1,0 +1,237 @@
+# ‎Gemini - Resumo Semanal Agro Negócio
+
+**URL:** https://gemini.google.com/share/129a133358f6
+
+---
+
+Sign in
+Gemini
+About Gemini
+Opens in a new window
+Gemini App
+Opens in a new window
+Subscriptions
+Opens in a new window
+For Business
+Opens in a new window
+
+Análise Semanal do Agronegócio Brasileiro: Crise de Crédito, Volatilidade nos Insumos e Perspectivas para a Safra no Sul
+
+📰 Manchete da Semana: A Maior Crise de Crédito Rural Desde o Plano Real Ameaça a Safra 2025/26
+
+O agronegócio brasileiro, pilar da economia nacional, enfrenta um de seus desafios mais severos das últimas três décadas. A confluência de um aperto monetário rigoroso, restrições fiscais e um endividamento crescente no campo culminou no que especialistas e entidades setoriais classificam como a maior crise de crédito rural desde a estabilização econômica do Plano Real, em 1994. Este cenário não apenas comprime a rentabilidade do produtor, mas lança uma sombra de incerteza sobre a capacidade de investimento e o potencial produtivo da safra 2025/26, que se inicia sob forte tensão financeira.
+
+Diagnóstico da Crise: Um Alerta Histórico da Farsul
+
+O sinal de alerta mais contundente da semana partiu da Federação da Agricultura do Estado do Rio Grande do Sul (Farsul), cujo levantamento econômico revelou uma retração histórica na disponibilidade de recursos para o setor. A análise dos dados do primeiro trimestre do Plano Safra 2025/26 (julho a setembro) é alarmante: em nível nacional, os recursos para custeio registraram uma queda de 23% em comparação com o mesmo período do ciclo anterior, enquanto a verba para investimentos despencou 44%. Este fenômeno demonstra uma contração sistêmica do financiamento, essencial para a aquisição de insumos e a modernização das operações agrícolas.   
+
+A situação no Rio Grande do Sul, um dos principais estados produtores, espelha a gravidade do quadro nacional, com recuos de 25% no custeio e 39% nos investimentos. A similaridade dos números evidencia que o problema não é uma anomalia regional, mas sim uma crise estrutural que afeta todo o país. A análise da Farsul vai além dos dados presentes e projeta um futuro próximo ainda mais sombrio, com a advertência de que "ainda não chegamos ao ápice da crise". Esta avaliação sugere que a pressão financeira sobre os produtores deve se intensificar antes que qualquer melhora seja observada, comprometendo o planejamento e a execução da safra em curso.   
+
+O Abismo entre o Anunciado e o Realizado: A Ineficácia do Plano Safra
+
+Um dos elementos centrais para a compreensão da crise atual é a crescente dissonância entre os volumes de crédito anunciados pelo governo e os recursos que efetivamente chegam ao produtor. Embora o Plano Safra 2025/26 tenha sido divulgado como o maior da história em termos nominais, a execução orçamentária tem ficado drasticamente aquém das expectativas, criando um "abismo entre o que se anunciou e o que efetivamente se observou". Este descompasso, que se acentuou nos últimos dois ciclos, mina a confiança do setor e revela uma falha crítica na implementação da política agrícola.   
+
+A ineficácia na liberação de verbas é corroborada pela mobilização da Frente Parlamentar da Agropecuária (FPA), que tem pressionado ativamente o governo federal para acelerar a operacionalização de linhas de crédito emergenciais. Um exemplo notório é a Medida Provisória 1.314/2025, que prometeu R$12 bilhões para socorrer agricultores afetados por eventos climáticos. Quase dois meses após seu anúncio, os recursos permanecem, em grande parte, inacessíveis devido a entraves burocráticos nas instituições financeiras. Esta demora na execução de políticas emergenciais agrava a situação de liquidez no campo, deixando produtores vulneráveis em um momento crucial do calendário agrícola.   
+
+Consequências Diretas no Campo: Endividamento e Recuperação Judicial em Alta
+
+A escassez de crédito novo atua como um catalisador para uma crise paralela de endividamento. Com o fluxo de caixa comprometido pela queda nos preços das commodities e pelo aumento dos custos de produção, a capacidade dos produtores de honrar seus compromissos financeiros se deteriorou rapidamente. O índice de inadimplência geral no crédito rural atingiu 5,14% em julho, o maior patamar da série histórica. No crédito livre, não subsidiado, a taxa é ainda mais preocupante, saltando para 9,35%.   
+
+Este estresse financeiro está empurrando um número crescente de produtores para medidas extremas de proteção legal. Dados da Serasa Experian indicam que os pedidos de recuperação judicial (RJ) no setor agropecuário quadruplicaram, com 566 casos registrados apenas em 2024. Este movimento é um sintoma claro de uma falência sistêmica no nível da propriedade rural, impulsionada por uma combinação de fatores: a manutenção da taxa básica de juros (Selic) em patamares elevados, que encarece o capital; a retração nos preços de grãos e da arroba do boi; os prejuízos decorrentes de eventos climáticos adversos; e o peso de dívidas acumuladas em anos de maior otimismo e expansão.   
+
+Análise de Riscos e Implicações Futuras
+
+As implicações desta crise de crédito são profundas e multifacetadas. O risco mais imediato é o comprometimento direto do potencial da safra 2025/26. A falta de capital para custeio afeta a capacidade dos agricultores de adquirir o pacote tecnológico ideal (sementes, fertilizantes e defensivos), executar o plantio na janela correta e realizar os tratos culturais necessários, o que ameaça diretamente a produtividade e o volume final da colheita.   
+
+Em resposta ao risco elevado de inadimplência, as instituições financeiras estão endurecendo as condições de financiamento. A exigência de garantias mais robustas, como a alienação fiduciária de imóveis rurais, tem se tornado mais comum, aumentando a vulnerabilidade do produtor. Em caso de quebra de safra ou dificuldades financeiras, o risco de perda do patrimônio é amplificado.   
+
+A longo prazo, a crise ameaça a competitividade do agronegócio brasileiro. A retração nos investimentos em máquinas, tecnologia de precisão, saúde do solo e práticas sustentáveis pode estagnar ou até reverter os ganhos de produtividade conquistados na última década. O cenário atual não é apenas um problema conjuntural de liquidez; é um freio estrutural que pode comprometer a trajetória de crescimento e inovação do setor mais dinâmico da economia brasileira. A crise de crédito, portanto, é a manifestação de um conflito macroeconômico mais profundo, onde a política monetária contracionista do Banco Central, necessária para o controle da inflação, colide diretamente com a necessidade de uma política de crédito expansionista para sustentar o crescimento do agronegócio. O produtor rural está no epicentro deste embate, arcando com os custos de um desajuste entre as prioridades da política econômica nacional e as demandas do ciclo produtivo.   
+
+👨‍🏫 Análise dos Especialistas: Navegando em Águas Turbulentas
+
+Para decifrar a complexidade do cenário atual, as análises de especialistas de mercado são ferramentas indispensáveis. As perspectivas de Jeferson Souza, da Agrinvest Commodities, e Kellen Severo, da Jovem Pan, oferecem um panorama complementar, combinando orientação tática para a gestão da propriedade com uma visão estratégica sobre as forças macroeconômicas e geopolíticas que moldam o setor.
+
+A Visão de Jeferson Souza (Agrinvest): Foco na Gestão de Custos e Risco
+
+A análise de Jeferson Souza é marcada por um pragmatismo focado na sobrevivência e na rentabilidade do produtor em um ambiente de margens espremidas. Sua mensagem central é a necessidade de uma gestão de custos rigorosa e de uma abordagem estratégica para a mitigação de riscos.
+
+Sua orientação se divide em duas frentes. A primeira é "da porteira para dentro", onde Souza enfatiza a importância de uma abordagem cirúrgica na aquisição de insumos. Em suas análises, como no podcast semanal "De olho nos custos", ele reitera que decisões de compra mal planejadas de fertilizantes, sementes e defensivos podem aniquilar completamente a margem de lucro, tornando a disciplina financeira um fator não apenas de sucesso, mas de viabilidade. A recomendação é de cautela extrema, avaliando o impacto de cada aquisição no custo final da produção.   
+
+A segunda frente é "da porteira para fora". Souza insiste que os produtores precisam transcender os limites da fazenda e utilizar as ferramentas disponíveis no mercado financeiro para proteger sua receita. Ele defende o uso de estratégias de hedge e a participação no mercado de futuros como mecanismos essenciais para travar preços de venda e se proteger da volatilidade das commodities. Em um mercado globalizado, a gestão de risco de preço deixou de ser uma opção para se tornar uma necessidade. Souza conecta diretamente as mudanças na geopolítica global, como as guerras tarifárias, aos seus impactos nos custos dos insumos e na competitividade da agricultura brasileira, instando os produtores a se planejarem para esses choques externos.   
+
+A Visão de Kellen Severo (Jovem Pan): O Contexto Macroeconomico e Geopolítico
+
+Kellen Severo, por sua vez, especializa-se em traduzir o complexo ambiente macroeconômico, político e geopolítico em consequências tangíveis para o agronegócio. Sua análise fornece o contexto mais amplo, explicando as forças externas que impactam a rentabilidade e a estabilidade do setor.
+
+Uma de suas principais contribuições é conectar a política monetária à realidade do campo. Severo frequentemente explica como a manutenção da taxa Selic em patamares elevados pelo Banco Central é a causa direta do encarecimento do crédito e da escassez de recursos para o Plano Safra, levando à suspensão de linhas de financiamento. Ela desmistifica o jargão econômico, mostrando por que o capital se tornou um recurso tão caro e restrito para o produtor.   
+
+Além da economia, Severo monitora de perto o cenário político em Brasília, analisando como decisões do Supremo Tribunal Federal (STF) — como a pauta do marco temporal para demarcação de terras indígenas — e as prioridades legislativas do Congresso Nacional criam um ambiente de incerteza regulatória e jurídica para o setor.   
+
+Seu radar geopolítico é outra peça-chave. As análises de Severo abrangem desde os potenciais impactos de uma nova presidência de Donald Trump nas relações comerciais com os Estados Unidos até as repercussões da guerra na Ucrânia sobre os mercados globais de grãos e fertilizantes, além da evolução da parceria estratégica com a China. Essa visão global é crucial para que o produtor brasileiro possa antecipar tendências e se posicionar estrategicamente. Por fim, ela integra a variável climática em suas análises, discutindo as previsões de fenômenos como o La Niña e seus potenciais efeitos sobre a produção agrícola, especialmente na Região Sul.   
+
+As visões de Souza e Severo, juntas, definem as duas frentes de batalha do produtor moderno. A análise de Souza representa o campo de batalha microeconômico e gerencial, focado nas variáveis que o produtor pode controlar ou gerenciar diretamente: custos, eficiência e estratégias de comercialização. A análise de Severo delineia o campo de batalha macroeconômico e geopolítico, composto por forças externas que o produtor não pode controlar, mas precisa compreender para se adaptar: política monetária, legislação, comércio internacional e clima. O sucesso na agricultura contemporânea exige competência em ambas as frentes. Um produtor com uma gestão impecável pode ser financeiramente inviabilizado por uma mudança na taxa de juros ou por uma disputa comercial entre potências globais, demonstrando que o risco no agronegócio evoluiu de uma base primariamente agronômica para uma matriz complexa de fatores produtivos, de mercado, políticos e geopolíticos.
+
+🌡️ Termômetro dos Fertilizantes: A "Virada de Chave" nos Preços e os Riscos no Radar
+
+O mercado de fertilizantes, um dos principais componentes do custo de produção agrícola, passou por uma mudança drástica nas últimas semanas. Após um primeiro semestre de altas contínuas, o setor vivencia o que analistas como Jeferson Souza, da Agrinvest, denominam uma "virada de chave", com uma inversão na tendência de preços dos macronutrientes Fósforo (P) e Potássio (K). No entanto, esta queda aparente esconde riscos logísticos e geopolíticos que exigem atenção redobrada do produtor.   
+
+Panorama Geral: A Inversão de Tendência no Mercado NPK
+
+A recente queda nos preços de Fósforo e Potássio é atribuída a uma combinação de dois fatores principais. O primeiro é a sazonalidade, um movimento típico que precede a janela principal de plantio da safra de verão, quando a demanda no mercado spot tende a arrefecer. O segundo, e mais impactante, foi o volume recorde de importações de fertilizantes pelo Brasil no primeiro semestre. O país adotou uma estratégia agressiva de compras, antecipando a demanda e criando um estoque interno robusto, o que gerou uma pressão baixista sobre os preços domésticos.   
+
+Apesar desta queda recente, é crucial notar que, no balanço anual, os preços ainda acumulam alta. Produtores que realizaram a compra de insumos, como o cloreto de potássio (KCl), no ano anterior, ainda se encontram em uma posição nominalmente vantajosa, especialmente quando se considera a relação de troca favorável com a soja, que ajuda a diluir o custo dos adubos.   
+
+Análise por Nutriente: Dinâmicas de N, P, e K
+
+A dinâmica de preços varia significativamente entre os três principais nutrientes:
+
+Nitrogênio (N): O mercado de nitrogenados, em especial a uréia, vive um momento de maior tensão. Enquanto as importações brasileiras de uréia registraram queda, o cenário externo apresenta riscos significativos de oferta. A Rússia anunciou cortes em suas cotas de exportação, e cresce a preocupação no mercado global com a possibilidade de a China impor restrições às suas vendas externas para garantir o abastecimento doméstico. Essa conjuntura cria um ambiente de alta volatilidade e um viés de alta para os preços do Nitrogênio no curto e médio prazo.   
+
+Fósforo (P) e Potássio (K): Estes dois nutrientes são os protagonistas da recente "virada de chave". Os volumes recordes importados pelo Brasil criaram uma sobreoferta momentânea no mercado interno, pressionando os preços para baixo. Contudo, Jeferson Souza alerta para uma nuance importante: embora a tonelagem total de fertilizantes importados tenha aumentado, a composição dos nutrientes mudou. Houve um aumento nas importações de produtos de menor concentração, como sulfato de amônio e SSP, enquanto as compras de uréia e MAP caíram. O resultado é um nível de Nitrogênio estável e apenas um leve aumento na oferta de Fósforo, indicando que o equilíbrio do mercado é mais delicado do que os números brutos de importação sugerem.   
+
+Preços de Referência (CFR Brasil)
+
+Para referência, os preços atuais (outubro de 2025) no mercado de importação, base Custo e Frete (CFR) para os portos brasileiros, apresentam o seguinte panorama:
+
+Nutriente (Produto)	Preço (USD/tonelada - CFR Brasil)	Tendência Recente
+Nitrogênio (Uréia)	
+
+~$422 
+
+	
+
+Queda 
+
+
+Fósforo (MAP)	
+
+~$700 
+
+	
+
+Alta recente, com leve recuo 
+
+
+Potássio (KCl)	
+
+~$355 - $365 
+
+	
+
+Estabilidade com viés de alta 
+
+  
+
+Fatores Estratégicos e Riscos Iminentes
+
+Além da dinâmica de oferta e demanda, três fatores estratégicos se destacam:
+
+O Gargalo da Logística: Este é, talvez, o risco mais crítico e imediato para o produtor. A queda nos preços pode ser uma miragem para quem deixar as compras para a última hora. A infraestrutura logística do país pode não suportar uma corrida concentrada pela aquisição e entrega de insumos às vésperas do plantio. O alerta é claro: a demora na decisão de compra pode resultar em atrasos na entrega que inviabilizem o plantio na janela ideal, anulando qualquer vantagem de preço obtida.   
+
+Dependência Externa e a Pauta da "Segurança Nacional": A volatilidade extrema dos últimos anos, exacerbada por conflitos internacionais, elevou o debate sobre a produção de fertilizantes a uma questão de segurança nacional. A alta dependência brasileira de importações (superior a 85%) é cada vez mais vista como uma vulnerabilidade estratégica. Essa percepção tem ganhado força em audiências na Câmara dos Deputados, onde especialistas defendem a necessidade de fortalecer a indústria nacional para reduzir a exposição do país a choques externos. Essa mudança de enquadramento do problema, de uma questão puramente econômica para uma de segurança nacional, é um forte indicativo de que futuras políticas públicas de incentivo à produção doméstica podem estar no horizonte.   
+
+O Risco Geopolítico Chinês: A possibilidade de a China, um dos maiores produtores e exportadores globais, restringir suas exportações de fertilizantes representa um risco de grande magnitude para o mercado. Qualquer movimento de Pequim nesse sentido teria um impacto imediato e severo nos preços globais, afetando diretamente a estrutura de custos do produtor brasileiro.   
+
+A atual queda nos preços de Fósforo e Potássio, portanto, deve ser vista como uma janela de oportunidade estratégica, mas também como uma potencial armadilha. Produtores que interpretam a baixa como um sinal para esperar por quedas ainda maiores podem se encontrar em uma posição vulnerável, seja por uma reversão abrupta dos preços devido a fatores geopolíticos, seja pela incapacidade de receber o produto a tempo devido ao estrangulamento logístico.
+
+Nutriente	Tendência de Preço (Curto Prazo)	Principais Fatores de Influência	Nível de Risco
+Nitrogênio (N)	Estável com viés de alta	Risco de restrição de oferta (Rússia, China); Demanda para a safrinha; Queda nas importações brasileiras.	Médio a Alto
+Fósforo (P)	Queda	Sazonalidade; Altos volumes importados; Demanda concentrada no plantio da safra de verão.	Baixo a Médio
+Potássio (K)	Queda	Sazonalidade; Altos volumes importados; Relação de troca favorável com a soja; Logística como gargalo.	Baixo a Médio
+Export to Sheets
+
+🛡️ Radar dos Defensivos: Crescimento em Volume, Queda no Faturamento e a Ascensão dos Biológicos
+
+O mercado de defensivos agrícolas em 2025 apresenta um cenário paradoxal: enquanto a área tratada com produtos para proteção de cultivos cresce de forma consistente, o faturamento do setor registra queda. A projeção geral é de um crescimento modesto, entre 3% e 6%. Essa dinâmica é impulsionada pela queda nos preços de alguns insumos e pela valorização do dólar, exigindo do produtor uma análise ainda mais criteriosa na gestão de seus custos.   
+
+A Dinâmica de Preços e a "Generificação"
+
+A dissociação entre o aumento do volume de aplicações e a queda no valor total movimentado é um dos pontos centrais do mercado atual. Na safra de soja 2024/25, por exemplo, a área potencial tratada cresceu 12%, mas o faturamento caiu 4,3%. Este fenômeno é explicado por dois fatores principais: a desvalorização do real frente ao dólar e a "erosão" nos preços de produtos que perderam a patente, um processo conhecido como "generificação". O mercado de herbicidas, mais generalista, sente mais esse impacto, com produtos como o glifosato se readequando a patamares históricos de preços. Em contrapartida, o segmento de fungicidas é considerado mais "premium", com maior inovação e produtos patenteados, o que sustenta valores mais altos.   
+
+Foco por Categoria e Riscos no Radar
+
+Apesar da queda geral no faturamento, o uso de inseticidas tem se intensificado. O número médio de aplicações contra lagartas aumentou, e o valor de mercado desses produtos específicos cresceu. Pragas como a cigarrinha-do-milho, lagartas e percevejos continuam sendo os principais alvos, respondendo por uma fatia significativa das vendas de inseticidas.
+
+No campo regulatório e fiscal, há pontos de grande atenção. A pauta no Supremo Tribunal Federal (STF) que pode acabar com a isenção fiscal para defensivos, se aprovada, pode gerar um impacto bilionário no custo de produção. Além disso, a instabilidade regulatória regional, como a suspensão da proibição do herbicida 2,4-D no Rio Grande do Sul, adiciona uma camada de incerteza para o produtor.
+
+A Fronteira dos Bioinsumos
+
+Em contrapartida ao crescimento modesto do mercado geral, o segmento de bioinsumos segue em franca expansão, com projeção de crescimento de 13% para 2025. A taxa de adoção de produtos biológicos tem aumentado consistentemente, com destaque para bionematicidas e bioinseticidas em culturas como soja, algodão e cana-de-açúcar. Esse avanço é sustentado por uma maior profissionalização da indústria, pela busca de soluções no manejo integrado de pragas e doenças, e por políticas públicas, como o Plano Safra, que oferecem juros reduzidos para produtores que adotam práticas sustentáveis.   
+
+Contexto Global e Dependência Externa
+
+O mercado brasileiro de defensivos, embora tenha uma dinâmica própria, não está imune a influências externas. A resposta às tendências globais é mais lenta em comparação com o setor de fertilizantes, mas a dependência da China como principal fornecedora de princípios ativos continua sendo um ponto de atenção estratégica. Qualquer interrupção na oferta chinesa pode impactar a disponibilidade e os preços no mercado doméstico.
+
+🌱 Foco no Sul: Entre a Recuperação da Soja e a Crise Histórica do Arroz
+
+A Região Sul, um dos pilares do agronegócio brasileiro, inicia a safra 2025/26 em um cenário de profundos contrastes. Enquanto o Rio Grande do Sul aposta em uma recuperação expressiva da produção de soja em meio a uma crise de crédito sem precedentes e ao colapso do mercado de arroz, o Paraná avança com o plantio de forma mais estável, embora permaneça atento aos riscos climáticos.
+
+Rio Grande do Sul: Um Cenário de Contrastes e Extrema Pressão
+
+O agronegócio gaúcho vive um momento paradoxal, com projeções otimistas para sua principal cultura de verão sendo confrontadas por uma realidade financeira e de mercado extremamente adversa.
+
+Soja - A Aposta na Recuperação: As estimativas para a safra de soja 2025/26 são de uma recuperação robusta após um ciclo anterior afetado por intempéries climáticas. A Companhia Nacional de Abastecimento (Conab) projeta um aumento de 34,9% na produção, que pode alcançar 22,4 milhões de toneladas. A Emater/RS-Ascar é ainda mais otimista, prevendo um salto de 57,1%, para 21,4 milhões de toneladas. Essa recuperação é um componente fundamental para as projeções de uma nova safra recorde de grãos no Brasil.   
+
+O Paradoxo do Plantio: Apesar das previsões favoráveis, o plantio da oleaginosa avança em ritmo lento. Este atraso não se deve a fatores climáticos, mas é uma consequência direta da severa crise de crédito. Muitos produtores enfrentam dificuldades para obter os recursos necessários para financiar as operações de plantio, criando um perigoso hiato entre o potencial produtivo do estado e a capacidade financeira de seus agricultores.   
+
+Arroz - Crise Estrutural e Intervenção Governamental: O mercado de arroz, vital para a economia de muitas regiões do estado, está em colapso. Os preços despencaram mais de 50% em um ano, atingindo o menor patamar em 14 anos. A saca, negociada em torno de R59,17,est
+a
+ˊ
+bemabaixodocustodeprodu
+c
+\c
+	​
+
+a
+~
+o,quevariadeR75 a R90,gerandopreju
+ı
+ˊ
+zosgeneralizados.[39,40]Acrise
+e
+ˊ
+atribu
+ı
+ˊ
+daaumasuperprodu
+c
+\c
+	​
+
+a
+~
+onasafrapassada,queresultouemestoqueselevados,combinadacomumademandaenfraquecidaeaconcorr
+e
+^
+nciadoarrozimportado.[37,41]Emresposta,ogovernofederal,pormeiodaConab,anunciouumainterven
+c
+\c
+	​
+
+a
+~
+oemergencialdeR300 milhões para sustentar os preços através de mecanismos de apoio à comercialização, como o Prêmio para Escoamento de Produto (PEP) и o Prêmio Equalizador Pago ao Produtor Rural (Pepro).   
+
+Fator Clima: A vulnerabilidade climática permanece como uma constante. As chuvas intensas e frequentes das últimas semanas já causaram perdas significativas em culturas como frutas e hortaliças, além de danos à infraestrutura rural. A chegada de uma nova frente fria traz mais chuvas, cujo impacto sobre o andamento do plantio e o desenvolvimento inicial das lavouras será monitorado de perto.   
+
+A situação no Rio Grande do Sul representa um microcosmo das pressões insustentáveis que afligem o setor agrícola brasileiro. De um lado, o mercado e o governo depositam no produtor gaúcho a expectativa de uma safra de soja recorde para garantir o abastecimento nacional e as exportações. Do outro, o sistema financeiro nega a esse mesmo produtor o crédito essencial para viabilizar essa produção. Somam-se a isso o colapso de um mercado alternativo de renda (arroz) e a constante ameaça climática. Este modelo, que exige desempenho máximo sob condições de apoio mínimo, é inerentemente instável e coloca em risco não apenas a safra gaúcha, mas a previsão nacional de grãos, que depende criticamente da recuperação de uma região em estado de crise aguda.
+
+Paraná: Avanço do Plantio com Olhos no Céu
+
+No Paraná, o cenário para a safra 2025/26 se desenha de forma mais estável, com perspectivas positivas para as principais culturas, embora os riscos climáticos exijam monitoramento constante.
+
+Perspectivas Positivas e Diversificadas: O estado projeta um ano de bons resultados em diversas frentes. A safra de cevada deve ser histórica, com uma colheita estimada em 449 mil toneladas. Para as principais culturas de verão, as previsões também são de crescimento: a produção de soja deve aumentar 4,23%, chegando a 22,05 milhões de toneladas, e a de milho primeira safra deve crescer 5,5%, totalizando 3,22 milhões de toneladas.   
+
+Ritmo do Plantio: De acordo com o último relatório do Departamento de Economia Rural (Deral), o plantio do milho primeira safra está praticamente finalizado, com 94% da área semeada. O plantio da soja alcançou 52% da área prevista. Embora represente um avanço considerável na última semana, o ritmo está ligeiramente atrás do observado no mesmo período do ano passado. As chuvas recentes beneficiaram o desenvolvimento inicial das lavouras já implantadas, que, em sua maioria, apresentam boas condições.   
+
+Fator Clima: Apesar do quadro geral favorável, o Paraná não está imune a choques climáticos. Eventos extremos recentes, como a ocorrência de geadas tardias, causaram perdas em culturas mais sensíveis. O milho segunda safra plantado fora da janela ideal e diversas hortaliças foram particularmente afetados, com reflexos na oferta e nos preços de produtos como alface e brócolis. Este fato sublinha o risco persistente de eventos climáticos adversos, mesmo em um cenário de projeções otimistas.   
+
+A divergência entre os cenários do Rio Grande do Sul e do Paraná aponta para uma reconfiguração dos perfis de risco regionais. Enquanto o Paraná enfrenta desafios climáticos e de mercado considerados "normais" para a atividade agrícola, o Rio Grande do Sul lida com esses mesmos riscos somados a uma falha sistêmica nos mercados de crédito e de arroz. Para investidores, seguradoras e gestores da cadeia de suprimentos, o Paraná representa, no momento, um ambiente de produção mais estável e previsível, ao passo que o Rio Grande do Sul se tornou uma região de alta volatilidade e risco elevado, o que pode influenciar decisões futuras de alocação de capital e estratégias de aquisição de matéria-prima.
+
+Estado	Principal Cultura	Projeção de Produção (vs. 24/25)	Status do Plantio	Principais Desafios Atuais
+Rio Grande do Sul	Soja	Alta expressiva (+34% a +57%)	Lento, severamente impactado pela falta de crédito	Crise de crédito sistêmica; Colapso do mercado de arroz; Volatilidade climática (excesso de chuva).
+Paraná	Soja	Aumento moderado (+4,2%)	Em ritmo (52%), levemente atrasado em relação a 2024/25	Risco de eventos climáticos extremos (geadas tardias); Acesso ao crédito; Gestão de margens de lucro.
+Export to Sheets
+This content was created by another person. It may be inaccurate or unsafe. Report unsafe content
+Opens in a new window
+Try Gemini Deep Research

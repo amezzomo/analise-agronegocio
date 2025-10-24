@@ -1,0 +1,15 @@
+{"time":"2025-10-24T16:32:53.620829913-04:00","level":"INFO","msg":"Sentry initialized","dsn":"https://962d173a894d***","environment":"PROD","release":"5.2.20","sandbox_id":"imkkporg8djf4emdn9iu2"}
+{"time":"2025-10-24T16:32:53.622672756-04:00","level":"INFO","msg":"Sentry initialized successfully"}
+{"time":"2025-10-24T16:32:53.622677631-04:00","level":"INFO","msg":"State sync started","log_file":"/home/ubuntu/.logs/state-sync/state-sync.log"}
+{"time":"2025-10-24T16:32:53.62402823-04:00","level":"INFO","msg":"Pulling state from remote storage"}
+{"time":"2025-10-24T16:32:53.624045414-04:00","level":"INFO","msg":"Pull is not allowed, waiting for config change"}
+{"time":"2025-10-24T16:32:53.776987589-04:00","level":"INFO","msg":"Created hidden target for cookie sync","targetID":"489A8690373FA8E600ACD4C7F2F7C6D7"}
+{"time":"2025-10-24T16:32:53.812617565-04:00","level":"WARN","msg":"Failed to close hidden target","error":"to close the target, cancel its context or use chromedp.Cancel"}
+{"time":"2025-10-24T16:32:53.814017814-04:00","level":"INFO","msg":"Initial cookie sync completed, marker file created","path":"/home/ubuntu/.config/state-sync/.sync-ready"}
+{"time":"2025-10-24T16:32:53.814080685-04:00","level":"INFO","msg":"Watching targets"}
+{"time":"2025-10-24T16:32:53.935089972-04:00","level":"INFO","msg":"Initial target found","targetID":"B8B55DEE218B5596BEC68CF24493909E"}
+{"time":"2025-10-24T16:32:53.935897193-04:00","level":"INFO","msg":"Target info changed","targetID":"B8B55DEE218B5596BEC68CF24493909E"}
+{"time":"2025-10-24T16:35:04.784538044-04:00","level":"INFO","msg":"Target info changed","targetID":"68C1CF2F231FA7ABFED7BC119E219A9D"}
+{"time":"2025-10-24T16:35:05.092574065-04:00","level":"INFO","msg":"Put is not allowed"}
+{"time":"2025-10-24T16:35:06.992576168-04:00","level":"INFO","msg":"Target info changed","targetID":"68C1CF2F231FA7ABFED7BC119E219A9D"}
+{"time":"2025-10-24T16:35:07.094488428-04:00","level":"INFO","msg":"Put is not allowed"}

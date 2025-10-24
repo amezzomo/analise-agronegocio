@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise Semanal do Agronegócio Brasileiro</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+            max-height: 400px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 350px;
+            }
+        }
+        .icon {
+            font-size: 1.5rem;
+            margin-right: 0.5rem;
+        }
+        .kpi-value {
+             color: #47A8F5; /* Energetic Blue */
+        }
+        .trend-up {
+            color: #4CAF50; /* Green */
+        }
+        .trend-down {
+            color: #F24C4E; /* Energetic Red */
+        }
+        .trend-stable {
+            color: #F7C548; /* Energetic Yellow */
+        }
+
+        /* Estilos para o conteúdo da Análise (Markdown) */
+        .analysis-content h2 {
+            font-size: 1.75rem; /* 2xl */
+            font-weight: 700; /* bold */
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+            color: #3E4A61;
+            border-bottom: 2px solid #47A8F5;
+            padding-bottom: 0.25rem;
+        }
+        .analysis-content h3 {
+            font-size: 1.25rem; /* xl */
+            font-weight: 600; /* semi-bold */
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+            color: #3E4A61;
+        }
+        .analysis-content p, .analysis-content li {
+            margin-bottom: 1rem;
+            line-height: 1.6;
+        }
+        .analysis-content ul {
+            list-style-type: disc;
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <header class="bg-[#3E4A61] text-white p-6 shadow-md">
+        <h1 class="text-3xl font-bold text-center">Análise Semanal do Agronegócio Brasileiro</h1>
+        <p class="text-center text-lg mt-1">Atualizado em 24 de Outubro de 2025</p>
+    </header>
+
+    <main class="container mx-auto p-4 md:p-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+            <!-- Coluna Principal para a Análise (2/3 da largura em telas grandes) -->
+            <section id="analysis-section" class="md:col-span-2 bg-white rounded-lg shadow-md p-6 analysis-content">
+                <h2 class="text-2xl font-bold mb-4 text-[#3E4A61]">Análise Completa</h2>
+                
+                <!-- Conteúdo da Análise (Markdown convertido para HTML) -->
+                <article>
+                    <h2>Manchete da Semana: A Maior Crise de Crédito Rural Desde o Plano Real Ameaça a Safra 2025/26</h2>
+                    <p>O agronegócio brasileiro, pilar da economia nacional, enfrenta um de seus desafios mais severos das últimas três décadas. A confluência de um <strong>aperto monetário rigoroso</strong>, <strong>restrições fiscais</strong> e um <strong>endividamento crescente</strong> no campo culminou no que especialistas e entidades setoriais classificam como a maior crise de crédito rural desde a estabilização econômica do Plano Real, em 1994. Este cenário não apenas comprime a rentabilidade do produtor, mas lança uma sombra de incerteza sobre a capacidade de investimento e o potencial produtivo da safra 2025/26, que se inicia sob forte tensão financeira.</p>
+                    
+                    <hr>
+
+                    <h2>Diagnóstico da Crise: Um Alerta Histórico da Farsul</h2>
+                    <p>O sinal de alerta mais contundente da semana partiu da Federação da Agricultura do Estado do Rio Grande do Sul (<strong>Farsul</strong>), cujo levantamento econômico revelou uma retração histórica na disponibilidade de recursos para o setor.</p>
+                    <p>A análise dos dados do primeiro trimestre do Plano Safra 2025/26 (julho a setembro) é alarmante:</p>
+                    <ul>
+                        <li>Em nível nacional, os recursos para <strong>custeio</strong> registraram uma queda de <strong>23%</strong> em comparação com o mesmo período do ciclo anterior.</li>
+                        <li>A verba para <strong>investimentos</strong> despencou <strong>44%</strong>.</li>
+                    </ul>
+                    <p>Este fenômeno demonstra uma contração sistêmica do financiamento, essencial para a aquisição de insumos e a modernização das operações agrícolas.</p>
+                    <p>A situação no Rio Grande do Sul, um dos principais estados produtores, espelha a gravidade do quadro nacional, com recuos de <strong>25% no custeio</strong> e <strong>39% nos investimentos</strong>. A similaridade dos números evidencia que o problema não é uma anomalia regional, mas sim uma crise estrutural que afeta todo o país. A análise da Farsul vai além dos dados presentes e projeta um futuro próximo ainda mais sombrio, com a advertência de que "ainda não chegamos ao ápice da crise".</p>
+                    
+                    <hr>
+
+                    <h2>O Abismo entre o Anunciado e o Realizado: A Ineficácia do Plano Safra</h2>
+                    <p>Um dos elementos centrais para a compreensão da crise atual é a crescente dissonância entre os volumes de crédito anunciados pelo governo e os recursos que efetivamente chegam ao produtor. Embora o Plano Safra 2025/26 tenha sido divulgado como o maior da história em termos nominais, a execução orçamentária tem ficado drasticamente aquém das expectativas, criando um "abismo entre o que se anunciou e o que efetivamente se observou".</p>
+                    <p>A ineficácia na liberação de verbas é corroborada pela mobilização da Frente Parlamentar da Agropecuária (<strong>FPA</strong>), que tem pressionado ativamente o governo federal para acelerar a operacionalização de linhas de crédito emergenciais. Um exemplo notório é a Medida Provisória 1.314/2025, que prometeu R$12 bilhões para socorrer agricultores afetados por eventos climáticos. Quase dois meses após seu anúncio, os recursos permanecem, em grande parte, inacessíveis devido a entraves burocráticos nas instituições financeiras.</p>
+                    
+                    <hr>
+
+                    <h2>Consequências Diretas no Campo: Endividamento e Recuperação Judicial em Alta</h2>
+                    <p>A escassez de crédito novo atua como um catalisador para uma crise paralela de endividamento.</p>
+                    <ul>
+                        <li>O índice de <strong>inadimplência geral</strong> no crédito rural atingiu <strong>5,14%</strong> em julho, o maior patamar da série histórica.</li>
+                        <li>No <strong>crédito livre</strong>, não subsidiado, a taxa é ainda mais preocupante, saltando para <strong>9,35%</strong>.</li>
+                    </ul>
+                    <p>Este estresse financeiro está empurrando um número crescente de produtores para medidas extremas de proteção legal. Dados da Serasa Experian indicam que os pedidos de **recuperação judicial (RJ)** no setor agropecuário **quadruplicaram**, com **566 casos registrados apenas em 2024**.</p>
+                    <p>Este movimento é um sintoma claro de uma falência sistêmica no nível da propriedade rural, impulsionada por uma combinação de fatores:</p>
+                    <ol>
+                        <li>Manutenção da taxa básica de juros (<strong>Selic</strong>) em patamares elevados.</li>
+                        <li>Retração nos preços de grãos e da arroba do boi.</li>
+                        <li>Prejuízos decorrentes de eventos climáticos adversos.</li>
+                        <li>Peso de dívidas acumuladas em anos de maior otimismo e expansão.</li>
+                    </ol>
+                    
+                    <hr>
+
+                    <h2>Análise de Riscos e Implicações Futuras</h2>
+                    <p>As implicações desta crise de crédito são profundas e multifacetadas.</p>
+
+                    <h3>Risco Imediato: Safra 2025/26 Comprometida</h3>
+                    <p>A falta de capital para custeio afeta a capacidade dos agricultores de adquirir o pacote tecnológico ideal (sementes, fertilizantes e defensivos), executar o plantio na janela correta e realizar os tratos culturais necessários, o que ameaça diretamente a produtividade e o volume final da colheita.</p>
+
+                    <h3>Risco de Garantias e Patrimônio</h3>
+                    <p>Em resposta ao risco elevado de inadimplência, as instituições financeiras estão endurecendo as condições de financiamento. A exigência de garantias mais robustas, como a **alienação fiduciária de imóveis rurais**, tem se tornado mais comum, aumentando a vulnerabilidade do produtor.</p>
+
+                    <h3>Risco de Competitividade a Longo Prazo</h3>
+                    <p>A retração nos investimentos em máquinas, tecnologia de precisão, saúde do solo e práticas sustentáveis pode estagnar ou até reverter os ganhos de produtividade conquistados na última década. O cenário atual não é apenas um problema conjuntural de liquidez; é um freio estrutural que pode comprometer a trajetória de crescimento e inovação do setor.</p>
+                    
+                    <hr>
+
+                    <h2>Conclusão</h2>
+                    <p>A crise de crédito é a manifestação de um conflito macroeconômico mais profundo, onde a política monetária contracionista do Banco Central, necessária para o controle da inflação, colide diretamente com a necessidade de uma política de crédito expansionista para sustentar o crescimento do agronegócio. O produtor rural está no epicentro deste embate, arcando com os custos de um desajuste entre as prioridades da política econômica nacional e as demandas do ciclo produtivo.</p>
+                </article>
+                
+            </section>
+
+            <!-- Coluna Lateral para Infográfico e Podcast (1/3 da largura em telas grandes) -->
+            <aside class="md:col-span-1">
+                
+                <!-- Seção Podcast -->
+                <section id="podcast" class="bg-white rounded-lg shadow-md p-6 mb-8">
+                    <h2 class="text-2xl font-semibold mb-4 text-[#47A8F5] flex items-center"><span class="icon">🎧</span>Resumo em Podcast</h2>
+                    <p class="mb-4 text-sm">Ouça o resumo completo da análise semanal em nosso podcast:</p>
+                    <!-- O arquivo de podcast será hospedado junto com o site. O caminho será relativo. -->
+                    <audio controls class="w-full">
+                        <source src="AgronegócioemTensão_CrisedeCréditoPós-Real,InsumosVoláteiseoParadoxodaSafranoSul.mp3" type="audio/mpeg">
+                        Seu navegador não suporta o elemento de áudio.
+                    </audio>
+                    <p class="mt-2 text-xs text-gray-500">Duração: 3:45 min</p>
+                </section>
+                
+                <!-- Seção Infográfico (Resumo Visual) -->
+                <section id="infografico-resumo" class="bg-white rounded-lg shadow-md p-6">
+                    <h2 class="text-2xl font-semibold mb-4 text-[#47A8F5] flex items-center"><span class="icon">📊</span>Infográfico da Semana</h2>
+                    
+                    <!-- Conteúdo do Infográfico (adaptado do arquivo original) -->
+                    
+                    <div id="manchete-infografico" class="bg-blue-50 p-4 rounded-lg mb-4">
+                        <p class="text-sm text-gray-700 mb-1 font-semibold">Queda no Custeio e Investimento (Plano Safra 25/26 - 1º Tri)</p>
+                        <div class="flex justify-around text-center">
+                            <div>
+                                <p class="text-4xl font-bold kpi-value trend-down">23%</p>
+                                <p class="text-sm text-gray-600">Custeio (Nacional)</p>
+                            </div>
+                            <div>
+                                <p class="text-4xl font-bold kpi-value trend-down">44%</p>
+                                <p class="text-sm text-gray-600">Investimento (Nacional)</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div id="endividamento" class="bg-red-50 p-4 rounded-lg mb-4">
+                        <p class="text-sm text-gray-700 mb-1 font-semibold">Endividamento e Inadimplência</p>
+                        <div class="flex justify-around text-center">
+                            <div>
+                                <p class="text-4xl font-bold kpi-value trend-down">5,14%</p>
+                                <p class="text-sm text-gray-600">Inadimplência Geral (Julho)</p>
+                            </div>
+                            <div>
+                                <p class="text-4xl font-bold kpi-value trend-down">4x</p>
+                                <p class="text-sm text-gray-600">Aumento em Recuperação Judicial (2024)</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Gráfico de Exemplo do Infográfico (Manter a estrutura para futura atualização) -->
+                    <h3 class="text-lg font-semibold mb-2 text-center">Exemplo de Visualização</h3>
+                    <div class="chart-container mb-4" style="height: 200px; max-height: 250px;">
+                        <canvas id="defensivosUsageChart"></canvas>
+                    </div>
+                    <p class="text-sm text-center text-gray-600">Distribuição de Uso de Defensivos (1º Tri 2025)</p>
+                    
+                </section>
+                
+            </aside>
+
+        </div>
+    </main>
+
+    <footer class="text-center text-xs text-gray-500 py-4 mt-8">
+        Análise e Infográfico gerados em 24/10/2025. Para a análise completa e referências, consulte a seção principal.
+    </footer>
+
+    <script>
+        // Funções do Chart.js (mantidas do infográfico original)
+        document.addEventListener('DOMContentLoaded', () => {
+
+             const processLabels = (labels) => {
+                const charLimit = 16;
+                return labels.map(label => {
+                    if (typeof label === 'string' && label.length > charLimit) {
+                        const words = label.split(' ');
+                        const lines = [];
+                        let currentLine = '';
+                        words.forEach(word => {
+                            if ((currentLine + word).length <= charLimit) {
+                                currentLine += (currentLine ? ' ' : '') + word;
+                            } else {
+                                if (currentLine) lines.push(currentLine);
+                                currentLine = word;
+                             }
+                        });
+                        if (currentLine) lines.push(currentLine);
+                         return lines;
+                    }
+                    return label;
+                });
+            };
+
+            const tooltipTitleCallback = (tooltipItems) => {
+                 const item = tooltipItems[0];
+                 let label = item.chart.data.labels[item.dataIndex];
+                 if (Array.isArray(label)) {
+                    return label.join(' ');
+                 } else {
+                    return label;
+                }
+            };
+
+            const commonChartOptions = {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    tooltip: {
+                        callbacks: {
+                            title: tooltipTitleCallback
+                        }
+                    },
+                    legend: {
+                         position: 'bottom',
+                    }
+                },
+                scales: {
+                     x: {
+                        ticks: {
+                            autoSkip: false,
+                            maxRotation: 0,
+                            minRotation: 0
+                        }
+                    }
+                }
+            };
+
+            const colors = ['#47A8F5', '#F7C548', '#F78154', '#F24C4E', '#3E4A61', '#A8D8B9'];
+
+            // Gráfico de Defensivos (adaptado para a coluna lateral)
+            const ctxDef = document.getElementById('defensivosUsageChart')?.getContext('2d');
+             if (ctxDef) {
+                 const labelsDef = processLabels(['Milho', 'Soja', 'Algodão', 'Pastagens', 'Cana-de-Açúcar', 'Outros Cultivos']);
+                new Chart(ctxDef, {
+                    type: 'doughnut',
+                    data: {
+                        labels: labelsDef,
+                        datasets: [{
+                            label: '% da Área Tratada (1º Tri 2025)',
+                             data: [36, 35, 13, 7, 3, 6],
+                            backgroundColor: colors,
+                             hoverOffset: 4
+                        }]
+                     },
+                     options: {
+                         ...commonChartOptions,
+                         scales: { x: { display: false }, y: { display: false } }, // Hide axes for doughnut
+                        plugins: {
+                             ...commonChartOptions.plugins,
+                            legend: {
+                                 position: 'right',
+                                labels: { boxWidth: 12, padding: 15, font: { size: 10 } }
+                            }
+                        }
+                    }
+                });
+            }
+
+        });
+    </script>
+
+</body>
+</html>
