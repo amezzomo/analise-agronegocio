@@ -366,41 +366,81 @@
                 <section id="infografico-completo" class="bg-white rounded-lg shadow-md p-6">
                     <h3 class="text-xl font-bold mb-4 text-[#3E4A61] flex items-center"><span class="icon text-3xl">📊</span> Infográfico da Semana</h3>
                     
-                    <div class="chart-container">
-                        <canvas id="chartInadimplencia"></canvas>
+                    <div class="text-center bg-blue-50 p-6 rounded-lg">
+                        <p class="text-lg text-gray-700 mb-2">Plantio da Soja 2025/26 no Brasil (Estimativa Nacional)</p>
+                        <p class="text-6xl font-bold kpi-value">~35%</p>
+                        <p class="text-xl text-gray-600">da Área Prevista</p>
                     </div>
-                    <p class="text-center text-sm text-gray-600 mt-2">Inadimplência Crédito Rural (%) - Julho 2025</p>
+                    <p class="mt-4 text-sm text-gray-600">Este avanço está ligeiramente acima da média histórica para esta época do ano, refletindo as boas condições iniciais em estados chave como Mato Grosso.</p>
 
-                    <div class="chart-container">
-                        <canvas id="chartQuedaCredito"></canvas>
-                    </div>
-                    <p class="text-center text-sm text-gray-600 mt-2">Queda no Crédito Rural (1º Trimestre Plano Safra 25/26)</p>
-
-                    <div class="chart-container">
-                        <canvas id="chartPrecosFertilizantes"></canvas>
-                    </div>
-                    <p class="text-center text-sm text-gray-600 mt-2">Preços de Referência de Fertilizantes (USD/ton - Out. 2025)</p>
-                    
                     <div class="mt-6">
-                        <h4 class="text-lg font-semibold text-[#3E4A61] mb-2 border-b pb-1">KPIs Chave</h4>
-                        <ul class="space-y-2 text-sm">
-                            <li class="flex justify-between items-center">
-                                <span>Inadimplência Geral:</span>
-                                <span class="kpi-value text-lg">5.14%</span>
-                            </li>
-                            <li class="flex justify-between items-center">
-                                <span>Queda Investimento:</span>
-                                <span class="kpi-value text-lg trend-down">44%</span>
-                            </li>
-                            <li class="flex justify-between items-center">
-                                <span>RJ no Agro (2024):</span>
-                                <span class="kpi-value text-lg trend-down">Quadruplicou</span>
-                            </li>
-                            <li class="flex justify-between items-center">
-                                <span>Cresc. Bioinsumos (2025):</span>
-                                <span class="kpi-value text-lg trend-up">13%</span>
-                            </li>
+                        <h4 class="text-lg font-semibold text-[#3E4A61] mb-2 border-b pb-1">Análise dos Especialistas</h4>
+                        <div class="grid grid-cols-1 gap-4">
+                            <div class="border border-gray-200 rounded-lg p-4 bg-gray-50">
+                                <h5 class="text-md font-semibold mb-2">Jeferson Souza (Agrinvest)</h5>
+                                <p class="text-sm">O mercado de fertilizantes segue volátil. Embora os preços CFR mostrem alguma estabilidade recente, a internalização e o frete ainda pressionam os custos finais para o produtor. A recomendação é travar custos sempre que a relação de troca for favorável, especialmente com a proximidade da janela ideal para o milho safrinha, que dependerá da colheita da soja.</p>
+                            </div>
+                            <div class="border border-gray-200 rounded-lg p-4 bg-gray-50">
+                                <h5 class="text-md font-semibold mb-2">Kellen Severo (Jovem Pan)</h5>
+                                <p class="text-sm">O clima tem colaborado para o avanço rápido do plantio na maior parte do país. No entanto, há pontos de atenção com chuvas irregulares em algumas microrregiões, especialmente no Sul. As previsões de médio prazo indicam um padrão mais neutro, sem La Niña forte, mas a variabilidade climática exige cautela e monitoramento constante para o desenvolvimento das lavouras recém-implantadas.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-6">
+                        <h4 class="text-lg font-semibold text-[#3E4A61] mb-2 border-b pb-1">Termômetro dos Fertilizantes</h4>
+                        <div class="chart-container mb-4">
+                            <canvas id="fertilizerPriceChart"></canvas>
+                        </div>
+                        <p class="text-sm text-center text-gray-600 mb-4">Preços médios referência para importação (Custo + Frete) na semana.</p>
+                        <ul class="list-disc list-inside space-y-1 text-sm">
+                            <li><strong>Nitrogênio (Uréia):</strong> Mercado <span class="trend-stable font-semibold">estável</span> (<span class="icon trend-stable">↔</span> ~$420/t). Demanda interna aquecida sustenta os preços, apesar da oferta global relativamente confortável.</li>
+                            <li><strong>Fósforo (MAP):</strong> Pouca alteração nos preços CFR (<span class="icon trend-stable">↔</span> ~$718/t). A demanda para a safra de verão já foi majoritariamente atendida, mas o mercado se mantém firme.</li>
+                            <li><strong>Potássio (KCL):</strong> Cotações permanecem <span class="trend-stable font-semibold">estáveis</span> (<span class="icon trend-stable">↔</span> ~$360/t). O foco agora se volta para as negociações para a safrinha.</li>
                         </ul>
+                    </div>
+
+                    <div class="mt-6">
+                        <h4 class="text-lg font-semibold text-[#3E4A61] mb-2 border-b pb-1">Mercado de Defensivos Agrícolas</h4>
+                        <div class="text-center mb-4">
+                            <p class="text-md text-gray-700">Estimativa de Crescimento da Área Tratada (Acumulado 2025)</p>
+                            <p class="text-4xl font-bold kpi-value trend-up">+2.5% a 3.5% <span class="text-2xl">↑</span></p>
+                            <p class="text-xs text-gray-500">(Comparado a 2024, projeção)</p>
+                        </div>
+                        <h5 class="text-md font-semibold mb-2 text-center">Foco Atual do Mercado</h5>
+                        <div class="chart-container mb-4 flex items-center justify-center text-center text-gray-700" style="height: 260px; max-height: 300px; background-color: #f9fafb; border-radius: 8px;">
+                            <p class="text-lg font-semibold">Demanda concentrada em:<br/> <span class="text-[#F78154]">Herbicidas</span> (Manejo inicial)<br/> <span class="text-[#F24C4E]">Inseticidas</span> (Trat. Sementes/Pragas iniciais)<br/> <span class="text-[#F7C548]">Fungicidas</span> (Preventivo/Trat. Sementes)</p>
+                        </div>
+                        <ul class="list-disc list-inside space-y-1 text-sm">
+                            <li>A rápida janela de plantio impulsiona a demanda por produtos para manejo inicial.</li>
+                            <li>Produtores buscam tecnologias que ofereçam maior espectro de controle e residual.</li>
+                            <li>O mercado de biológicos continua em expansão como ferramenta complementar no manejo integrado.</li>
+                            <li>Custos logísticos e disponibilidade de ingredientes ativos ainda são monitorados pela indústria.</li>
+                        </ul>
+                    </div>
+
+                    <div class="mt-6">
+                        <h4 class="text-lg font-semibold text-[#3E4A61] mb-2 border-b pb-1">Foco no Sul: Rio Grande do Sul e Paraná</h4>
+                        <div class="grid grid-cols-1 gap-4">
+                            <div class="border border-gray-200 rounded-lg p-4 bg-gray-50">
+                                <h5 class="text-md font-semibold mb-2">Rio Grande do Sul (RS)</h5>
+                                <p class="text-sm mb-3">O plantio da soja <span class="font-semibold">avança de forma mais lenta</span> em comparação a outras regiões, devido à umidade irregular em algumas áreas. A expectativa ainda é de uma boa safra, mas o ritmo inicial é cauteloso. Mercado local acompanha Chicago com basis pressionado.</p>
+                                <div class="space-y-1 text-sm">
+                                    <p><strong>Preços Soja (Final Out/25):</strong></p>
+                                    <p> <span class="font-medium">Porto (Rio Grande):</span> ~R$ 138,50/saca</p>
+                                    <p> <span class="font-medium">Interior (Ex: Cruz Alta):</span> ~R$ 129,00/saca</p>
+                                </div>
+                            </div>
+                            <div class="border border-gray-200 rounded-lg p-4 bg-gray-50">
+                                <h5 class="text-md font-semibold mb-2">Paraná (PR)</h5>
+                                <p class="text-sm mb-3">O plantio da soja está <span class="font-semibold">bem avançado</span>, beneficiado por condições climáticas mais regulares nas últimas semanas. O desenvolvimento inicial das lavouras é considerado bom. Preços seguem estáveis.</p>
+                                <div class="space-y-1 text-sm">
+                                    <p><strong>Preços Soja (Final Out/25):</strong></p>
+                                    <p><span class="font-medium">Porto (Paranaguá):</span> ~R$ 139,50/saca</p>
+                                    <p><span class="font-medium">Interior (Ex: Maringá):</span> ~R$ 130,00/saca</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </section>
                 
@@ -429,32 +469,7 @@
             }]
         };
 
-        const configInadimplencia = {
-            type: 'bar',
-            data: dataInadimplencia,
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                scales: {
-                    y: {
-                        beginAtZero: true,
-                        max: 10,
-                        title: {
-                            display: true,
-                            text: 'Taxa (%)'
-                        }
-                    }
-                },
-                plugins: {
-                    legend: {
-                        display: false
-                    },
-                    title: {
-                        display: false
-                    }
-                }
-            }
-        };
+
 
         // Gráfico 2: Queda de Crédito
         const dataQuedaCredito = {
@@ -552,22 +567,105 @@
         // Renderização dos Gráficos
         window.onload = function() {
             if (document.getElementById('chartInadimplencia')) {
-                new Chart(
-                    document.getElementById('chartInadimplencia'),
-                    configInadimplencia
-                );
+                
             }
             if (document.getElementById('chartQuedaCredito')) {
-                new Chart(
-                    document.getElementById('chartQuedaCredito'),
-                    configQuedaCredito
-                );
+                
             }
             if (document.getElementById('chartPrecosFertilizantes')) {
-                new Chart(
-                    document.getElementById('chartPrecosFertilizantes'),
-                    configPrecosFertilizantes
-                );
+                const processLabels = (labels) => {
+                const charLimit = 16;
+                return labels.map(label => {
+                    if (typeof label === 'string' && label.length > charLimit) {
+                        const words = label.split(' ');
+                        const lines = [];
+                        let currentLine = '';
+                        words.forEach(word => {
+                            if ((currentLine + word).length <= charLimit) {
+                                currentLine += (currentLine ? ' ' : '') + word;
+                            } else {
+                                if (currentLine) lines.push(currentLine);
+                                currentLine = word;
+                             }
+                        });
+                        if (currentLine) lines.push(currentLine);
+                         return lines;
+                    }
+                    return label;
+                });
+            };
+
+            const tooltipTitleCallback = (tooltipItems) => {
+                 const item = tooltipItems[0];
+                 let label = item.chart.data.labels[item.dataIndex];
+                 if (Array.isArray(label)) {
+                    return label.join(' ');
+                 } else {
+                    return label;
+                }
+            };
+
+            const commonChartOptions = {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    tooltip: {
+                        callbacks: {
+                            title: tooltipTitleCallback
+                        }
+                    },
+                    legend: {
+                         position: 'bottom',
+                    }
+                },
+                scales: {
+                     x: {
+                        ticks: {
+                            autoSkip: false,
+                            maxRotation: 0,
+                            minRotation: 0
+                        }
+                    }
+                }
+            };
+
+            const colors = ['#47A8F5', '#F7C548', '#F78154', '#F24C4E', '#3E4A61', '#A8D8B9'];
+
+
+            const ctxFert = document.getElementById('fertilizerPriceChart')?.getContext('2d');
+            if (ctxFert) {
+                 const labelsFert = processLabels(['Uréia Granulada', 'MAP', 'KCL']);
+                 new Chart(ctxFert, {
+                    type: 'bar',
+                    data: {
+                        labels: labelsFert,
+                        datasets: [{
+                            label: 'Preço Médio CFR Brasil (USD/t)',
+                             data: [420.00, 718.00, 360.00],
+                             backgroundColor: [colors[0], colors[1], colors[2]],
+                             borderColor: [colors[0], colors[1], colors[2]],
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        ...commonChartOptions,
+                         indexAxis: 'y',
+                        scales: {
+                             x: {
+                                beginAtZero: true,
+                                title: { display: true, text: 'USD/Tonelada' }
+                            },
+                            y: {
+                                ticks: { font: { size: 10 } }
+                            }
+                        },
+                         plugins: {
+                             ...commonChartOptions.plugins,
+                            legend: { display: false }
+                        }
+                    }
+                });
+            }
             }
         };
     </script>
