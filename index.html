@@ -366,6 +366,7 @@
                 <!-- KPIs da Crise de Crédito (Restaurados) -->
                 <section id="kpis-crise" class="bg-white rounded-lg shadow-md p-6 mb-6 border-l-4 border-[#F24C4E]">
                     <h3 class="text-xl font-bold mb-4 text-[#3E4A61] flex items-center"><span class="icon text-3xl">⚠️</span> Crise de Crédito (KPIs)</h3>
+                    <p class="text-sm text-gray-700 mb-4">A crise de crédito rural se aprofunda, com retração histórica no financiamento e aumento da inadimplência, pressionando o planejamento da safra 25/26.</p>
                     <ul class="space-y-2 text-sm">
                         <li class="flex justify-between items-center">
                             <span class="font-semibold">Inadimplência Geral (Jul/25):</span>
@@ -395,19 +396,7 @@
                     </div>
                     <p class="mt-4 text-sm text-gray-600">Este avanço está ligeiramente acima da média histórica para esta época do ano, refletindo as boas condições iniciais em estados chave como Mato Grosso.</p>
 
-                    <div class="mt-6">
-                        <h4 class="text-lg font-semibold text-[#3E4A61] mb-2 border-b pb-1">Análise dos Especialistas</h4>
-                        <div class="grid grid-cols-1 gap-4">
-                            <div class="border border-gray-200 rounded-lg p-4 bg-gray-50">
-                                <h5 class="text-md font-semibold mb-2">Jeferson Souza (Agrinvest)</h5>
-                                <p class="text-sm">O mercado de fertilizantes segue volátil. Embora os preços CFR mostrem alguma estabilidade recente, a internalização e o frete ainda pressionam os custos finais para o produtor. A recomendação é travar custos sempre que a relação de troca for favorável, especialmente com a proximidade da janela ideal para o milho safrinha, que dependerá da colheita da soja.</p>
-                            </div>
-                            <div class="border border-gray-200 rounded-lg p-4 bg-gray-50">
-                                <h5 class="text-md font-semibold mb-2">Kellen Severo (Jovem Pan)</h5>
-                                <p class="text-sm">O clima tem colaborado para o avanço rápido do plantio na maior parte do país. No entanto, há pontos de atenção com chuvas irregulares em algumas microrregiões, especialmente no Sul. As previsões de médio prazo indicam um padrão mais neutro, sem La Niña forte, mas a variabilidade climática exige cautela e monitoramento constante para o desenvolvimento das lavouras recém-implantadas.</p>
-                            </div>
-                        </div>
-                    </div>
+
 
                     <div class="mt-6">
                         <h4 class="text-lg font-semibold text-[#3E4A61] mb-2 border-b pb-1">Termômetro dos Fertilizantes</h4>
@@ -441,27 +430,31 @@
                     </div>
 
                     <div class="mt-6">
-                        <h4 class="text-lg font-semibold text-[#3E4A61] mb-2 border-b pb-1">Foco no Sul: Rio Grande do Sul e Paraná</h4>
-                        <div class="grid grid-cols-1 gap-4">
-                            <div class="border border-gray-200 rounded-lg p-4 bg-gray-50">
-                                <h5 class="text-md font-semibold mb-2">Rio Grande do Sul (RS)</h5>
-                                <p class="text-sm mb-3">O plantio da soja <span class="font-semibold">avança de forma mais lenta</span> em comparação a outras regiões, devido à umidade irregular em algumas áreas. A expectativa ainda é de uma boa safra, mas o ritmo inicial é cauteloso. Mercado local acompanha Chicago com basis pressionado.</p>
-                                <div class="space-y-1 text-sm">
-                                    <p><strong>Preços Soja (Final Out/25):</strong></p>
-                                    <p> <span class="font-medium">Porto (Rio Grande):</span> ~R$ 138,50/saca</p>
-                                    <p> <span class="font-medium">Interior (Ex: Cruz Alta):</span> ~R$ 129,00/saca</p>
-                                </div>
-                            </div>
-                            <div class="border border-gray-200 rounded-lg p-4 bg-gray-50">
-                                <h5 class="text-md font-semibold mb-2">Paraná (PR)</h5>
-                                <p class="text-sm mb-3">O plantio da soja está <span class="font-semibold">bem avançado</span>, beneficiado por condições climáticas mais regulares nas últimas semanas. O desenvolvimento inicial das lavouras é considerado bom. Preços seguem estáveis.</p>
-                                <div class="space-y-1 text-sm">
-                                    <p><strong>Preços Soja (Final Out/25):</strong></p>
-                                    <p><span class="font-medium">Porto (Paranaguá):</span> ~R$ 139,50/saca</p>
-                                    <p><span class="font-medium">Interior (Ex: Maringá):</span> ~R$ 130,00/saca</p>
-                                </div>
-                            </div>
+                        <h4 class="text-lg font-semibold text-[#3E4A61] mb-2 border-b pb-1">Preços de Soja (Foco Sul)</h4>
+                        <div class="overflow-x-auto">
+                            <table class="min-w-full divide-y divide-gray-200 text-sm">
+                                <thead class="bg-gray-50">
+                                    <tr>
+                                        <th class="px-3 py-2 text-left font-medium text-gray-500 uppercase tracking-wider">Região</th>
+                                        <th class="px-3 py-2 text-left font-medium text-gray-500 uppercase tracking-wider">Porto</th>
+                                        <th class="px-3 py-2 text-left font-medium text-gray-500 uppercase tracking-wider">Interior</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="bg-white divide-y divide-gray-200">
+                                    <tr>
+                                        <td class="px-3 py-2 whitespace-nowrap font-semibold text-gray-900">Rio Grande do Sul</td>
+                                        <td class="px-3 py-2 whitespace-nowrap text-gray-700">~R$ 138,50/saca</td>
+                                        <td class="px-3 py-2 whitespace-nowrap text-gray-700">~R$ 129,00/saca</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="px-3 py-2 whitespace-nowrap font-semibold text-gray-900">Paraná</td>
+                                        <td class="px-3 py-2 whitespace-nowrap text-gray-700">~R$ 139,50/saca</td>
+                                        <td class="px-3 py-2 whitespace-nowrap text-gray-700">~R$ 130,00/saca</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
+                        <p class="mt-2 text-xs text-gray-500">Preços médios referência (Final Out/25). Fonte: Simulação de Mercado.</p>
                     </div>
                 </section>
                 
