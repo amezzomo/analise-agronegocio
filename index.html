@@ -10,6 +10,118 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
+        /* Estilos do Boletim Agro Sul */
+        :root{
+            --bg: #F8F6F1;
+            --surface: #FFFFFF;
+            --brand: #1E3A29; /* verde institucional */
+            --brand-2: #47624F; /* secundario */
+            --text: #1E1E1E;
+            --muted: #5C5C5C;
+            --accent: #A8D8B9;
+            --border: #E3E0D9;
+            --danger: #F24C4E;
+        }
+        .container{max-width:1100px;margin:0 auto;padding:28px}
+        .header{background:var(--surface);padding:28px;border-radius:12px;display:flex;align-items:center;gap:20px;box-shadow:0 8px 24px rgba(16,24,40,0.06)}
+        .header-logo{width:150px;height:auto}
+        .header-title{flex:1}
+        .h1{font-size:24px;color:var(--brand);margin:0;font-weight:800;letter-spacing:0.4px}
+        .h2{font-size:13px;color:var(--muted);margin-top:6px}
+        .card{background:var(--surface);padding:20px;border-radius:12px;box-shadow:0 6px 20px rgba(16,24,40,0.04);border:1px solid var(--border)}
+        .section-title{font-size:18px;color:var(--brand);margin-bottom:10px;font-weight:700}
+        .table{width:100%;border-collapse:collapse;margin-top:12px}
+        .table th{background:#f7f6f3;padding:10px;text-align:left;color:var(--muted);font-size:13px}
+        .table td{padding:10px;border-top:1px solid var(--border)}
+        @media (max-width:900px){
+            .header{flex-direction:column;align-items:flex-start}
+            .header-logo{width:130px}
+        }
+        /* Fim dos Estilos do Boletim Agro Sul */
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg); /* Aplicar cor de fundo do Boletim */
+            color: var(--text); /* Aplicar cor de texto do Boletim */
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+            max-height: 400px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 350px;
+            }
+        }
+        .icon {
+            font-size: 1.5rem;
+            margin-right: 0.5rem;
+        }
+        .kpi-value {
+             color: var(--brand); /* Usar cor principal do Boletim */
+        }
+        .trend-up {
+            color: #4CAF50; /* Green */
+        }
+        .trend-down {
+            color: var(--danger); /* Usar cor de perigo do Boletim */
+        }
+        .trend-stable {
+            color: #F7C548; /* Energetic Yellow */
+        }
+
+        /* Estilos para o Conteúdo da Análise (Markdown) */
+        .analysis-content h2 {
+            font-size: 1.75rem; /* 2xl */
+            font-weight: 700; /* bold */
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+            color: var(--brand); /* Usar cor principal do Boletim */
+            border-bottom: 2px solid var(--accent); /* Usar cor de destaque do Boletim */
+            padding-bottom: 0.25rem;
+        }
+        .analysis-content h3 {
+            font-size: 1.25rem; /* xl */
+            font-weight: 600; /* semi-bold */
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+            color: var(--brand); /* Usar cor principal do Boletim */
+        }
+        .analysis-content p, .analysis-content li {
+            margin-bottom: 1rem;
+            line-height: 1.6;
+        }
+        .analysis-content ul, .analysis-content ol {
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .analysis-content ul {
+            list-style-type: disc;
+        }
+        .analysis-content ol {
+            list-style-type: decimal;
+        }
+        .analysis-content table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 1rem;
+        }
+        .analysis-content th, .analysis-content td {
+            border: 1px solid var(--border); /* Usar cor de borda do Boletim */
+            padding: 8px;
+            text-align: left;
+        }
+        .analysis-content th {
+            background-color: #f7f6f3; /* Cor de fundo da tabela do Boletim */
+            font-weight: bold;
+        }
+
+    </style>
         body {
             font-family: 'Inter', sans-serif;
         }
@@ -92,30 +204,33 @@
 
     </style>
 </head>
-<body class="bg-gray-100 text-gray-800">
+<body class="text-gray-800">
 
-    <header class="bg-[#3E4A61] text-white p-6 shadow-md">
-        <h1 class="text-3xl font-bold text-center">Análise Semanal do Agronegócio Brasileiro</h1>
-        <p class="text-center text-lg mt-1">Atualizado em 02 de Novembro de 2025</p>
+    <header class="header" role="banner">
+        <img src="logo.png" alt="Boletim Agro Sul - logo" class="header-logo" />
+        <div class="header-title">
+            <h1 class="h1">Análise Semanal do Agronegócio Brasileiro</h1>
+        <p class="h2">Atualizado em 02 de Novembro de 2025</p>
+        </div>
     </header>
 
-    <main class="container mx-auto p-4 md:p-8">
+    <main class="container p-4 md:p-8">
         <!-- Mensagem de Boas-Vindas e Propósito -->
-        <section class="mb-8 bg-white rounded-lg shadow-md p-6 border-l-4 border-[#47A8F5]">
-            <h2 class="text-xl font-bold text-[#3E4A61] mb-2">Bem-vindo(a) à Análise Semanal do Agronegócio Brasileiro!</h2>
+        <section class="mb-8 card p-6 border-l-4 border-l-[var(--accent)]">
+            <h2 class="text-xl font-bold text-[var(--brand)] mb-2">Bem-vindo(a) à Análise Semanal do Agronegócio Brasileiro!</h2>
             <p class="text-gray-700">Esta página é sua fonte de informação atualizada sobre os principais movimentos do setor. Aqui você encontrará:</p>
             <ul class="text-gray-700 space-y-2 mt-2">
                 <li class="flex items-center"><span class="icon">📝</span><span class="font-bold">Análise Completa:</span> O texto aprofundado sobre os desafios e oportunidades do agronegócio.</li>
                 <li class="flex items-center"><span class="icon">📊</span><span class="font-bold">Infográfico Visual:</span> Um resumo dinâmico com os dados e gráficos mais importantes da semana.</li>
                 <li class="flex items-center"><span class="icon">🎧</span><span class="font-bold">Resumo em Podcast:</span> A análise em áudio para você ouvir onde estiver.</li>
             </ul>
-            <p class="text-base font-semibold text-red-600 mt-3">O conteúdo é atualizado toda segunda-feira.</p>
+            <p class="text-base font-semibold text-[var(--danger)] mt-3">O conteúdo é atualizado toda segunda-feira.</p>
         </section>
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
 
             <!-- Coluna Principal para a Análise (2/3 da largura em telas grandes) -->
-            <section id="analysis-section" class="lg:col-span-2 bg-white rounded-lg shadow-md p-6 analysis-content order-last lg:order-none">
-                <h2 class="text-2xl font-bold mb-4 text-[#3E4A61]">Análise Completa</h2>
+            <section id="analysis-section" class="lg:col-span-2 card p-6 analysis-content order-last lg:order-none">
+                <h2 class="text-2xl font-bold mb-4 text-[var(--brand)]">Análise Completa</h2>
                 
                 <!-- Conteúdo da Análise (Markdown convertido para HTML) -->
                 <article>
@@ -193,8 +308,8 @@
             <aside class="lg:col-span-1 space-y-8 order-first lg:order-none">
 
                 <!-- Seção Podcast -->
-                <section id="podcast-section" class="bg-white rounded-lg shadow-md p-6">
-                    <h3 class="text-xl font-bold mb-4 text-[#3E4A61] flex items-center"><span class="icon text-3xl">🎧</span> Resumo em Áudio</h3>
+                <section id="podcast-section" class="card p-6">
+                    <h3 class="text-xl font-bold mb-4 text-[var(--brand)] flex items-center"><span class="icon text-3xl">🎧</span> Resumo em Áudio</h3>
                     <audio controls class="w-full">
                         <source src="podcast_semanal.mp3" type="audio/mpeg">
                         Seu navegador não suporta o elemento de áudio.
@@ -204,30 +319,30 @@
                 
                 <!-- Seção Infográfico Completo -->
                 <!-- KPIs da Crise de Crédito (Restaurados) -->
-                <section id="kpis-crise" class="bg-white rounded-lg shadow-md p-6 mb-6 border-l-4 border-[#F24C4E]">
-                    <h3 class="text-xl font-bold mb-4 text-[#3E4A61] flex items-center"><span class="icon text-3xl">⚠️</span> Crise de Crédito (KPIs)</h3>
+                <section id="kpis-crise" class="card p-6 mb-6 border-l-4 border-l-[var(--danger)]">
+                    <h3 class="text-xl font-bold mb-4 text-[var(--brand)] flex items-center"><span class="icon text-3xl">⚠️</span> Crise de Crédito (KPIs)</h3>
                     <p class="text-sm text-gray-700 mb-4">A crise de crédito rural se aprofunda, com retração histórica no financiamento e aumento da inadimplência, pressionando o planejamento da safra 25/26.</p>
                     <ul class="space-y-2 text-sm">
                         <li class="flex justify-between items-center">
                             <span class="font-semibold">Inadimplência Geral (Jul/25):</span>
-                            <span class="kpi-value text-lg text-[#F24C4E]">5.14%</span>
+                            <span class="kpi-value text-lg text-[var(--danger)]">5.14%</span>
                         </li>
                         <li class="flex justify-between items-center">
                             <span class="font-semibold">Queda Investimento (1º Trim. Safra):</span>
-                            <span class="kpi-value text-lg text-[#F24C4E]">44%</span>
+                            <span class="kpi-value text-lg text-[var(--danger)]">44%</span>
                         </li>
                         <li class="flex justify-between items-center">
                             <span class="font-semibold">RJ no Agro (2024):</span>
-                            <span class="kpi-value text-lg text-[#F24C4E]">Quadruplicou</span>
+                            <span class="kpi-value text-lg text-[var(--danger)]">Quadruplicou</span>
                         </li>
                         <li class="flex justify-between items-center">
                             <span class="font-semibold">Queda Custeio (1º Trim. Safra):</span>
-                            <span class="kpi-value text-lg text-[#F24C4E]">23%</span>
+                            <span class="kpi-value text-lg text-[var(--danger)]">23%</span>
                         </li>
                     </ul>
                 </section>
-                <section id="infografico-completo" class="bg-white rounded-lg shadow-md p-6">
-                    <h3 class="text-xl font-bold mb-4 text-[#3E4A61] flex items-center"><span class="icon text-3xl">📊</span> Infográfico da Semana</h3>
+                <section id="infografico-completo" class="card p-6">
+                    <h3 class="text-xl font-bold mb-4 text-[var(--brand)] flex items-center"><span class="icon text-3xl">📊</span> Infográfico da Semana</h3>
                     
                     <div class="text-center bg-blue-50 p-4 rounded-lg mb-4">
                         <p class="text-lg text-gray-700 mb-2">Plantio da Soja 2025/26 no Brasil (Estimativa Nacional)</p>
@@ -238,7 +353,7 @@
 
 
                     <div class="mt-6">
-                        <h4 class="text-lg font-semibold text-[#3E4A61] mb-2 border-b pb-1">Termômetro dos Fertilizantes</h4>
+                        <h4 class="text-lg font-semibold text-[var(--brand)] mb-2 border-b pb-1">Termômetro dos Fertilizantes</h4>
 
                         <ul class="list-disc list-inside space-y-1 text-sm">
                             <li><strong>Nitrogênio (Uréia):</strong> Mercado em <span class="trend-up font-semibold">leve alta</span> (<span class="icon trend-up">↑</span> ~$431/t). Demanda interna para o milho safrinha e compras globais (Índia) dão sustentação.</li>
@@ -249,7 +364,7 @@
 
 
                     <div class="mt-6">
-                        <h4 class="text-lg font-semibold text-[#3E4A61] mb-2 border-b pb-1">Mercado de Defensivos Agrícolas</h4>
+                        <h4 class="text-lg font-semibold text-[var(--brand)] mb-2 border-b pb-1">Mercado de Defensivos Agrícolas</h4>
                         <div class="text-center mb-4">
                             <p class="text-md text-gray-700">Projeção de Crescimento da Área Tratada (2025 vs 2024)</p>
                             <p class="text-4xl font-bold kpi-value trend-up">+3,4% <span class="text-2xl">↑</span></p>
@@ -268,7 +383,7 @@
                     </div>
 
                     <div class="mt-6">
-                        <h4 class="text-lg font-semibold text-[#3E4A61] mb-2 border-b pb-1">Preços de Soja (Foco Sul)</h4>
+                        <h4 class="text-lg font-semibold text-[var(--brand)] mb-2 border-b pb-1">Preços de Soja (Foco Sul)</h4>
                         <div class="overflow-x-auto">
                             <table class="min-w-full divide-y divide-gray-200 text-sm">
                                 <thead class="bg-gray-50">
