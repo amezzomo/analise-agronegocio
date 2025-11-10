@@ -13,3 +13,47 @@
 {"time":"2025-10-24T16:35:05.092574065-04:00","level":"INFO","msg":"Put is not allowed"}
 {"time":"2025-10-24T16:35:06.992576168-04:00","level":"INFO","msg":"Target info changed","targetID":"68C1CF2F231FA7ABFED7BC119E219A9D"}
 {"time":"2025-10-24T16:35:07.094488428-04:00","level":"INFO","msg":"Put is not allowed"}
+{"time":"2025-10-26T23:30:10.219611561-04:00","level":"INFO","msg":"Target info changed","targetID":"68C1CF2F231FA7ABFED7BC119E219A9D"}
+{"time":"2025-10-26T23:30:10.574895486-04:00","level":"INFO","msg":"ERROR: received DOM.documentUpdated when there's no top-level frame"}
+{"time":"2025-10-26T23:30:10.758984188-04:00","level":"INFO","msg":"Put is not allowed"}
+{"time":"2025-10-26T23:30:10.787259028-04:00","level":"INFO","msg":"Target info changed","targetID":"68C1CF2F231FA7ABFED7BC119E219A9D"}
+{"time":"2025-10-26T23:30:11.761014653-04:00","level":"INFO","msg":"Put is not allowed"}
+{"time":"2025-10-26T23:31:01.315717592-04:00","level":"INFO","msg":"Target info changed","targetID":"68C1CF2F231FA7ABFED7BC119E219A9D"}
+{"time":"2025-10-26T23:31:01.821119696-04:00","level":"INFO","msg":"Put is not allowed"}
+{"time":"2025-10-26T23:31:02.76248863-04:00","level":"INFO","msg":"Target info changed","targetID":"68C1CF2F231FA7ABFED7BC119E219A9D"}
+{"time":"2025-10-26T23:31:04.140427267-04:00","level":"INFO","msg":"Put is not allowed"}
+{"time":"2025-10-26T23:31:07.82978311-04:00","level":"INFO","msg":"Put is not allowed"}
+{"time":"2025-10-26T23:31:08.132048061-04:00","level":"INFO","msg":"Target info changed","targetID":"68C1CF2F231FA7ABFED7BC119E219A9D"}
+{"time":"2025-10-26T23:31:08.134043401-04:00","level":"INFO","msg":"Target info changed","targetID":"68C1CF2F231FA7ABFED7BC119E219A9D"}
+{"time":"2025-10-26T23:31:09.48265592-04:00","level":"INFO","msg":"Put is not allowed"}
+{"time":"2025-10-26T23:31:13.520244406-04:00","level":"INFO","msg":"Put is not allowed"}
+{"time":"2025-10-26T23:31:14.841241951-04:00","level":"INFO","msg":"Put is not allowed"}
+{"time":"2025-10-27T00:30:10.914146573-04:00","level":"INFO","msg":"Put is not allowed"}
+{"time":"2025-10-27T00:30:32.945081719-04:00","level":"INFO","msg":"Put is not allowed"}
+{"time":"2025-11-02T20:45:44.688814553-05:00","level":"INFO","msg":"Put is not allowed"}
+{"time":"2025-11-02T20:45:47.597276559-05:00","level":"INFO","msg":"Put is not allowed"}
+{"time":"2025-11-02T20:45:54.731553741-05:00","level":"INFO","msg":"Put is not allowed"}
+{"time":"2025-11-02T20:55:53.917013955-05:00","level":"INFO","msg":"Target info changed","targetID":"68C1CF2F231FA7ABFED7BC119E219A9D"}
+{"time":"2025-11-02T20:55:54.378552199-05:00","level":"INFO","msg":"Put is not allowed"}
+{"time":"2025-11-02T20:55:58.302674187-05:00","level":"INFO","msg":"ERROR: received DOM.documentUpdated when there's no top-level frame"}
+{"time":"2025-11-02T20:55:59.295769988-05:00","level":"INFO","msg":"Put is not allowed"}
+{"time":"2025-11-02T20:55:59.918261737-05:00","level":"INFO","msg":"Put is not allowed"}
+{"time":"2025-11-02T20:56:00.543309409-05:00","level":"INFO","msg":"Target info changed","targetID":"68C1CF2F231FA7ABFED7BC119E219A9D"}
+{"time":"2025-11-02T20:56:00.547311332-05:00","level":"INFO","msg":"Target info changed","targetID":"68C1CF2F231FA7ABFED7BC119E219A9D"}
+{"time":"2025-11-02T20:56:02.912692591-05:00","level":"INFO","msg":"Put is not allowed"}
+{"time":"2025-11-02T20:56:03.950357437-05:00","level":"INFO","msg":"Put is not allowed"}
+{"time":"2025-11-02T20:56:05.479676314-05:00","level":"INFO","msg":"Put is not allowed"}
+{"time":"2025-11-02T20:56:28.305773583-05:00","level":"INFO","msg":"Put is not allowed"}
+{"time":"2025-11-05T17:56:33.943009254-05:00","level":"INFO","msg":"Put is not allowed"}
+{"time":"2025-11-05T17:56:36.42794207-05:00","level":"INFO","msg":"Put is not allowed"}
+{"time":"2025-11-09T19:24:19.290931082-05:00","level":"INFO","msg":"Put is not allowed"}
+{"time":"2025-11-09T19:24:20.483047661-05:00","level":"INFO","msg":"Put is not allowed"}
+{"time":"2025-11-09T19:24:20.565150356-05:00","level":"INFO","msg":"Target info changed","targetID":"68C1CF2F231FA7ABFED7BC119E219A9D"}
+{"time":"2025-11-09T19:24:23.120410741-05:00","level":"INFO","msg":"Put is not allowed"}
+{"time":"2025-11-09T19:24:28.503463845-05:00","level":"INFO","msg":"Put is not allowed"}
+{"time":"2025-11-09T19:24:29.131201791-05:00","level":"INFO","msg":"Put is not allowed"}
+{"time":"2025-11-09T19:24:30.278377545-05:00","level":"INFO","msg":"Target info changed","targetID":"68C1CF2F231FA7ABFED7BC119E219A9D"}
+{"time":"2025-11-09T19:24:30.283974316-05:00","level":"INFO","msg":"Target info changed","targetID":"68C1CF2F231FA7ABFED7BC119E219A9D"}
+{"time":"2025-11-09T19:24:31.636704174-05:00","level":"INFO","msg":"Put is not allowed"}
+{"time":"2025-11-09T19:24:33.149997911-05:00","level":"INFO","msg":"Put is not allowed"}
+{"time":"2025-11-09T19:24:33.864451388-05:00","level":"INFO","msg":"Put is not allowed"}
